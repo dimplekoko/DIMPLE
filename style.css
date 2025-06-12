@@ -1,0 +1,69 @@
+/* Base styles */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: #f9f9f9;
+  color: #333;
+  line-height: 1.6;
+}
+
+a {
+  color: #6a4c93;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+header, section, footer {
+  padding: 60px 20px;
+  max-width: 900px;
+  margin: auto;
+}
+
+/* Hero section */
+.hero {
+  background: #f5e9f0;
+  text-align: center;
+  padding: 100px 20px;
+}
+
+.hero h1 {
+  font-size: 2.5em;
+  margin-bottom: 10px;
+}
+
+.hero p {
+  font-size: 1.2em;
+  color: #555;
+}
+
+/* Headings */
+h2 {
+  border-bottom: 2px solid #ccc;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+
+/* Services */
+.services ul {
+  list-style: none;
+  padding: 0;
+}
+
+.services li {
+  background: #fff;
+  margin-bottom: 10px;
+  padding: 12px;
+  border-left: 5px solid #6a4c93;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  font-size: 0.9em;
+  padding: 30px 20px;
+  background: #eee;
+}
